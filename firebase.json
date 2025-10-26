@@ -1,0 +1,18 @@
+{
+  "hosting": [
+    {
+      "site": "mycoderfound-org",
+      "source": ".",
+      "app": {
+        "build": "npm run build",
+        "start": "npm run start",
+        "baseDirectory": "/Users/mycodehan/Downloads/homepage"
+      }
+    }
+  ],
+  "emulators": {
+    "hosting": {
+      "port": 5002
+    }
+  }
+}
